@@ -1,0 +1,12 @@
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 400px) {
+    body{
+      background-color: lightblue;
+    }
+}
