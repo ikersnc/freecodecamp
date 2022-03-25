@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Survey Form</title> 
+    </head>
+    <body>
+        <h1 id="title">Formulario de satisfacción</h1>
+        <p id="description">Formulario para mejorar nuestro producto</p>
+        <form id="survey-form" action="#">
+          <label for="name" id="name-label">Nombre: </label>
+          <input type="text" id="name" name="name" placeholder="Introduce tu nomber" required>
+          <label for="email" id="email-label">Email: </label>
+          <input type="email" id="email" name="email" placeholder="Introduce tu email" required>
+          <label for="number" id="number-label">Edad: </label>
+          <input type="number" id="number" name="number" placeholder="Introduce tu edad" min="18" max="99">
+          <select id="dropdown" name="dropdown">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+          </select>
+          <input type="radio" name="radios" value="10">10
+          <input type="radio" name="radios" value="20">20
+          <input type="checkbox" name="checks" value="30">30
+          <input type="checkbox" name="checks" value="40">40
+          <textarea placeholder="Comentarios adicionales" name="coment"></textarea>
+          <button type="submit" id="submit" value="Enviar">
+        </form>
+    </body>
+</html>
+  
